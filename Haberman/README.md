@@ -21,6 +21,9 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Plotly · Jupyter Notebook
 - Observations and conclusions
 
 ## 📌 Key findings
+
+![Haberman's survival data at a glance](key_findings.png)
+
 - **Axillary nodes is the most useful feature.** Patients who survived have a median of 0 nodes; those who died have a median of 4.
 - Survival falls as nodes rise: about 86% with 0 nodes, 75% with 1–3, 61% with 4–10 and 42% with more than 10.
 - Age and operation year barely separate the two classes.
