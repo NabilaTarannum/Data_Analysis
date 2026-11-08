@@ -12,6 +12,7 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Plotly · Jupyter Notebook
 | `Haberman.ipynb` | The full analysis notebook |
 | `Haberman.csv` | The dataset (no header row) |
 | `scatter_3d.html` | Interactive 3D plot |
+| `Haberman_EDA_Report.pdf` | Full report with outputs (PDF) |
 
 ## 🔍 What the notebook covers
 - Data loading, shape, class balance (225 survived vs 81 died, about 73.5% / 26.5%) and duplicates
@@ -32,7 +33,7 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Plotly · Jupyter Notebook
 ## 🧊 3D scatter plot
 ![3D scatter plot of age, operation year and axillary nodes](scatter_3d.png)
 
-**[Open the interactive version](https://nabilatarannum.github.io/Data_Analysis/scatter_3d.html)** (rotate, zoom, click the legend to hide a class).
+**[Open the interactive version](https://nabilatarannum.github.io/Data_Analysis/Haberman/scatter_3d.html)** (rotate, zoom, click the legend to hide a class).
 
 ## ▶️ Run it yourself
 
