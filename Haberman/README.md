@@ -35,7 +35,14 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Plotly · Jupyter Notebook
 **[Open the interactive version](https://nabilatarannum.github.io/Data_Analysis/scatter_3d.html)** (rotate, zoom, click the legend to hide a class).
 
 ## ▶️ Run it yourself
-```bash
-pip install pandas numpy matplotlib seaborn plotly kaleido nbformat
-jupyter notebook Haberman.ipynb
-```
+
+1. Download `Haberman.ipynb` and `Haberman.csv` into the same folder.
+2. Install the packages:
+
+   ```bash
+   pip install pandas numpy matplotlib seaborn plotly kaleido nbformat ipykernel
+   ```
+
+3. Open `Haberman.ipynb` in VS Code or JupyterLab and choose **Run All**.
+
+The static 3D image needs Google Chrome installed. If it isn't found, the notebook shows the interactive plot instead.
