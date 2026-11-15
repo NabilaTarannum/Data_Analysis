@@ -47,3 +47,35 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Plotly · Jupyter Notebook
 3. Open `Haberman.ipynb` in VS Code or JupyterLab and choose **Run All**.
 
 The static 3D image needs Google Chrome installed. If it isn't found, the notebook shows the interactive plot instead.
+
+## 🚀 Quick Start
+
+Want to see the results immediately without running the full notebook?
+Run this short script from inside the `Haberman` folder to get the interactive 3D plot:
+
+```python
+import pandas as pd
+import plotly.express as px
+
+# Load the dataset (the CSV has no header row)
+df = pd.read_csv(
+    "Haberman.csv",
+    header=None,
+    names=["age", "operation_year", "axil_nodes", "survival_status"],
+)
+df["survival_status"] = df["survival_status"].map(
+    {1: "Survived 5+ years", 2: "Died within 5 years"}
+)
+
+# Create the interactive 3D scatter plot
+fig = px.scatter_3d(
+    df,
+    x="age",
+    y="operation_year",
+    z="axil_nodes",
+    color="survival_status",
+    title="3D scatter plot of age, operation year and axillary nodes",
+)
+fig.show()
+```
+
